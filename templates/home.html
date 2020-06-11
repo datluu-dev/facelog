@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+
+  <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Face Log</h1>
+
+  <hr class="mt-2 mb-5">
+  <dir id="pagination-region-1"></dir>
+
+
+  <div class="row text-center text-lg-left" id="img-region">
+<!--   	<div class="col-lg-3 col-md-4 col-6" id="pagination-region">
+			  
+    </div> -->
+  </div>
+
+  <dir id="pagination-region-2"></dir>
+
+</div>
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript" src="https://pagination.js.org/dist/2.1.5/pagination.min.js"></script>
+
+<script type="text/javascript" src="/js/home.js"></script>
+{% endblock %}

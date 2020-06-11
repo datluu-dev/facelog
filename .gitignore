@@ -1,0 +1,7 @@
+.DS_Store
+*.jpeg
+*.png
+*.jpg
+__pycache__
+database/
+camera_info.yaml
